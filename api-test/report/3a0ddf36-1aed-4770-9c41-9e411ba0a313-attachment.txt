@@ -1,0 +1,7 @@
+[2022-07-19 22:28:39,679][rest_client.py 45][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-07-19 22:28:39,679][rest_client.py 46][INFO]: 接口请求的方法>>>POST
+[2022-07-19 22:28:39,679][rest_client.py 50][INFO]: 接口请求的json参数>>>
+{
+  "username": 15000000002,
+  "password": 123456
+}

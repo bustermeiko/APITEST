@@ -1,0 +1,60 @@
+INFO     log:rest_client.py:45 接口请求的地址>>>http://admin.5istudy.online/login/
+INFO     log:rest_client.py:46 接口请求的方法>>>POST
+INFO     log:rest_client.py:50 接口请求的json参数>>>
+{
+  "username": 15000000002,
+  "password": 123456
+}
+INFO     log:response_util.py:14 接口的返回内容>>>：{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNTkyOTYsInVzZXJuYW1lIjoiMTUwMDAwMDAwMDIiLCJleHAiOjE2OTUzMTEzNjEsImVtYWlsIjpudWxsfQ.a3qI0qAgXEONl2aupo3hhTWzhXlNO0MwFWJkGGRyvAY"}
+INFO     log:rest_client_new.py:38 接口请求的地址>>>http://admin.5istudy.online/orders/
+INFO     log:rest_client_new.py:39 接口请求的方法>>>GET
+INFO     log:rest_client_new.py:47 接口请求的headers参数>>>
+{
+  "Content-Type": "application/json",
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNTkyOTYsInVzZXJuYW1lIjoiMTUwMDAwMDAwMDIiLCJleHAiOjE2OTUzMTEzNjEsImVtYWlsIjpudWxsfQ.a3qI0qAgXEONl2aupo3hhTWzhXlNO0MwFWJkGGRyvAY"
+}
+INFO     log:rest_client_new.py:18 接口返回内容>>>
+[
+  {
+    "id": 3385,
+    "pay_status": "paying",
+    "order_sn": "2023090823063215929657",
+    "trade_no": null,
+    "pay_time": null,
+    "add_time": "2023-09-08 23:06:32",
+    "alipay_url": "https://openapi-sandbox.dl.alipaydev.com/gateway.do?app_id=9021000123614494&biz_content=%7B%22subject%22%3A%222023090823063215929657%22%2C%22out_trade_no%22%3A%222023090823063215929657%22%2C%22total_amount%22%3A156.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2023-09-14+23%3A49%3A21&version=1.0&sign=cDI5f%2FuRoQtZZew0P2TihpJU6GB6GV4askf%2FC6ncz9M4kRIKM2A9SxIisPKwEBwaSDiw5x3E50zg3NBsNAgplG7MF6LYe3Bd6wD%2FsqCuDFgGt%2BGUMHl5vVimbW%2Fuw%2BjGDJ1QHKLYifxNS9yNwCEVuF92T6ISGrARwYk24Bqq5xxPRhGdO24njeH31PnJtjeADFGtVyUwUQqOCLTPsmKrdzaEQzJgrqYF5xJl1I3k9O2DoMXSvPhroWjCsnd61674%2Fmc9%2FHNh45khPB7d3hTkcA2Y3Gpl7vyisPofA99rvVsPulzHS6936P%2BrzceejMnX4aHWYVxgH0WpZurrZaP4dQ%3D%3D",
+    "post_script": "测试",
+    "order_mount": 156.0,
+    "address": "四川省成都市武侯区玉林西路",
+    "signer_name": "李四",
+    "singer_mobile": "13540001280"
+  },
+  {
+    "id": 3432,
+    "pay_status": "paying",
+    "order_sn": "2023091323155215929632",
+    "trade_no": null,
+    "pay_time": null,
+    "add_time": "2023-09-13 23:15:52",
+    "alipay_url": "https://openapi-sandbox.dl.alipaydev.com/gateway.do?app_id=9021000123614494&biz_content=%7B%22subject%22%3A%222023091323155215929632%22%2C%22out_trade_no%22%3A%222023091323155215929632%22%2C%22total_amount%22%3A5648.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2023-09-14+23%3A49%3A21&version=1.0&sign=aCD6dCGRe0QW63hwi5%2BEwrB17vcASsswoOpnFFg2j0MepaDEe4sZuQhqHUYZW43XS4FRN9l%2F3pgW%2BP6SrkoG4ItQSCy1%2BFvYwZkR0lFawm99LA%2Bq1Bstz1hCbfsBdq0Ji7xN%2FLfrtIhzhKyvS0WBGF20f%2FDo8ISX0LpT6TEcr5M0vWUI8wu97LeYzdLuwFUEzbtygqAEh8PQzGcNU8xF%2FYLJgc0jALh%2BeO%2BUJMkUubo%2BaBummXJqRexzORtFEQ8MiNw6RrpWl6EehGDK25sAwOBDzhHzscfci2R65XGPc0P%2BJtBkoIumUZGd8DXNDYOmtsN0PV9l6nc6P0zlkfc8BQ%3D%3D",
+    "post_script": "111",
+    "order_mount": 5648.0,
+    "address": "四川省成都市武侯区玉林西路",
+    "signer_name": "李四",
+    "singer_mobile": "13540001280"
+  },
+  {
+    "id": 3434,
+    "pay_status": "paying",
+    "order_sn": "2023091415521815929659",
+    "trade_no": null,
+    "pay_time": null,
+    "add_time": "2023-09-14 15:52:18",
+    "alipay_url": "https://openapi-sandbox.dl.alipaydev.com/gateway.do?app_id=9021000123614494&biz_content=%7B%22subject%22%3A%222023091415521815929659%22%2C%22out_trade_no%22%3A%222023091415521815929659%22%2C%22total_amount%22%3A1063.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2023-09-14+23%3A49%3A21&version=1.0&sign=S4jJPvHSufznWsqKjaaOlzwlVCKaAHF6VDYAbSIamQDQCflya2EYuD2PZrwlwp4RGv5vd4zKMPN7536xCymvrOnwNpEJ%2B%2BItAejpDAD1gWu3iHeZ7cudV1kPm5xnbZYsKUntap2lsHMwTmQ6LIXSBjxw6Cqu0zFnT3UT%2FbyLEUHc%2FDB1KAB1MYtVSCz749Wxqoibd%2Fi1w3SCyArWmI9%2FER9%2BfOrfxOBtLX6B9MvGBE2mj0AfuEdB6RDa45kSQlKg4SqIdXLNdozik0WYwUWfz1mot2ojBI%2FqN3q0NE%2FkUWEt%2Fdv3UZsn65RbANDqqYClRmK5K4GED%2BJEgwRDIio9Dw%3D%3D",
+    "post_script": "123123123",
+    "order_mount": 1063.0,
+    "address": "四川省成都市武侯区玉林西路",
+    "signer_name": "李四",
+    "singer_mobile": "13540001280"
+  }
+]

@@ -1,0 +1,46 @@
+[32mINFO    [0m log:rest_client.py:45 接口请求的地址>>>http://admin.5istudy.online/login/
+[32mINFO    [0m log:rest_client.py:46 接口请求的方法>>>POST
+[32mINFO    [0m log:rest_client.py:50 接口请求的json参数>>>
+{
+  "username": 15000000002,
+  "password": 123456
+}
+[32mINFO    [0m log:response_util.py:14 接口的返回内容>>>：{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNTkyOTYsInVzZXJuYW1lIjoiMTUwMDAwMDAwMDIiLCJleHAiOjE2OTUyNTYxMDAsImVtYWlsIjpudWxsfQ.zViKyJUoONVDMJs0o7rJ8SVsrbD2LeI4abJGkKEu4O4"}
+[32mINFO    [0m log:rest_client_new.py:38 接口请求的地址>>>http://admin.5istudy.online/orders/
+[32mINFO    [0m log:rest_client_new.py:39 接口请求的方法>>>GET
+[32mINFO    [0m log:rest_client_new.py:47 接口请求的headers参数>>>
+{
+  "Content-Type": "application/json",
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNTkyOTYsInVzZXJuYW1lIjoiMTUwMDAwMDAwMDIiLCJleHAiOjE2OTUyNTYxMDAsImVtYWlsIjpudWxsfQ.zViKyJUoONVDMJs0o7rJ8SVsrbD2LeI4abJGkKEu4O4"
+}
+[32mINFO    [0m log:rest_client_new.py:18 接口返回内容>>>
+[
+  {
+    "id": 3385,
+    "pay_status": "paying",
+    "order_sn": "2023090823063215929657",
+    "trade_no": null,
+    "pay_time": null,
+    "add_time": "2023-09-08 23:06:32",
+    "alipay_url": "https://openapi-sandbox.dl.alipaydev.com/gateway.do?app_id=9021000123614494&biz_content=%7B%22subject%22%3A%222023090823063215929657%22%2C%22out_trade_no%22%3A%222023090823063215929657%22%2C%22total_amount%22%3A156.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2023-09-14+08%3A28%3A21&version=1.0&sign=VMTTqvik1jv9TEUoyGqZmyTlK4zRI923CNriROxHFJiNBdpPrPqRk5RUZmwJAworb1DTSqZWXpRX4EpLzTBzGttKcCbPksa3tYfi1lTj4dVmgopb2oFw0wbWpcqTo8l389CHY85P1a0expX35IIaDYtfVNYwvQm7fuR8d2yIg4GRBqxMTtEwWxCtIYPOi9zXTQCLdd7Pwee8wFmOebv6GkaPwj2EFBmlEZcF0IhsSTDBnDE99ebaw1uCxA6TMvLLhBXk71pDGxQXaibCVC2JMn3p9HV2293ZsmS8uhizJGxk%2FR4xFf6KMr9UOSgnVOiQsfE8I8I5CzMIh6RYyY8vhA%3D%3D",
+    "post_script": "测试",
+    "order_mount": 156.0,
+    "address": "四川省成都市武侯区玉林西路",
+    "signer_name": "李四",
+    "singer_mobile": "13540001280"
+  },
+  {
+    "id": 3432,
+    "pay_status": "paying",
+    "order_sn": "2023091323155215929632",
+    "trade_no": null,
+    "pay_time": null,
+    "add_time": "2023-09-13 23:15:52",
+    "alipay_url": "https://openapi-sandbox.dl.alipaydev.com/gateway.do?app_id=9021000123614494&biz_content=%7B%22subject%22%3A%222023091323155215929632%22%2C%22out_trade_no%22%3A%222023091323155215929632%22%2C%22total_amount%22%3A5648.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2023-09-14+08%3A28%3A21&version=1.0&sign=NOy0Dpg0z5DN6RPt7vNfbRTHutVKRDDZKzcc3kLEobndBpKQfZkg8eu7AB8oY%2FayR33pjcZt4ZFqpC%2BidZEbkp5asZ867NgDeGK2GzIbPVXEyLE7B21jOzBb7oL57EiGhwwJ4udAoyWq%2Ff9Si%2Bh%2F6%2BR3SHPpvc292y0EIRn4b9FhGp%2FWX10b%2F7gkjwirxr7we82gpSWGsk5zMB7Y4fuejg78hISI5cEH95vTzlSJhtSgXtzhaQVEP6NywQTL1QSyaYqgFswAqnhp1hbFI31LLzef%2FwMtDXFZRoHfhlqclAaYgOLDLsQvPdpDesaOq6M9YJapSclquGUiNk8iTSrZ1Q%3D%3D",
+    "post_script": "111",
+    "order_mount": 5648.0,
+    "address": "四川省成都市武侯区玉林西路",
+    "signer_name": "李四",
+    "singer_mobile": "13540001280"
+  }
+]

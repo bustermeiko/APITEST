@@ -1,0 +1,26 @@
+[2022-07-19 22:28:52,665][mysql_util.py 47][INFO]: 执行sql：delete from users_verifycode where mobile = '15000000000';
+[2022-07-19 22:28:52,696][conftest.py 25][INFO]: sql执行结果：None
+[2022-07-19 22:28:52,696][rest_client.py 45][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2022-07-19 22:28:52,697][rest_client.py 46][INFO]: 接口请求的方法>>>POST
+[2022-07-19 22:28:52,697][rest_client.py 50][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 15000000000
+}
+[2022-07-19 22:28:52,770][response_util.py 14][INFO]: 接口的返回内容>>>：{"mobile": "15000000000"}
+[2022-07-19 22:28:55,870][mysql_util.py 47][INFO]: 执行sql：delete from users_verifycode where mobile = '15000000000';
+[2022-07-19 22:28:55,908][conftest.py 25][INFO]: sql执行结果：None
+[2022-07-19 22:28:55,909][rest_client.py 45][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2022-07-19 22:28:55,909][rest_client.py 46][INFO]: 接口请求的方法>>>POST
+[2022-07-19 22:28:55,909][rest_client.py 50][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 15000000000
+}
+[2022-07-19 22:28:59,194][mysql_util.py 47][INFO]: 执行sql：delete from users_verifycode where mobile = '15000000000';
+[2022-07-19 22:28:59,226][conftest.py 25][INFO]: sql执行结果：None
+[2022-07-19 22:28:59,226][rest_client.py 45][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2022-07-19 22:28:59,226][rest_client.py 46][INFO]: 接口请求的方法>>>POST
+[2022-07-19 22:28:59,227][rest_client.py 50][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 15000000000
+}
+[2022-07-19 22:28:59,291][response_util.py 14][INFO]: 接口的返回内容>>>：{"mobile": "15000000000"}

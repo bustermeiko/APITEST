@@ -1,0 +1,19 @@
+[32mINFO    [0m log:rest_client.py:45 接口请求的地址>>>http://admin.5istudy.online/login/
+[32mINFO    [0m log:rest_client.py:46 接口请求的方法>>>POST
+[32mINFO    [0m log:rest_client.py:50 接口请求的json参数>>>
+{
+  "username": 15000000002,
+  "password": 123456
+}
+[32mINFO    [0m log:response_util.py:14 接口的返回内容>>>：{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNTkyOTYsInVzZXJuYW1lIjoiMTUwMDAwMDAwMDIiLCJleHAiOjE2NTg4NDQ3NTAsImVtYWlsIjpudWxsfQ.CsZUhGk-BjYHrGg-6SO7KLWp9-M8QIiTzBxSmlZYQd8"}
+[32mINFO    [0m log:rest_client.py:45 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[32mINFO    [0m log:rest_client.py:46 接口请求的方法>>>POST
+[32mINFO    [0m log:rest_client.py:50 接口请求的json参数>>>
+{
+  "goods": 6,
+  "nums": 1
+}
+[32mINFO    [0m log:rest_client.py:54 接口请求的params参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNTkyOTYsInVzZXJuYW1lIjoiMTUwMDAwMDAwMDIiLCJleHAiOjE2NTg4NDQ3NTAsImVtYWlsIjpudWxsfQ.CsZUhGk-BjYHrGg-6SO7KLWp9-M8QIiTzBxSmlZYQd8"
+}
