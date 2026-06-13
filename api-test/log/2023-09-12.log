@@ -1,0 +1,30 @@
+[2023-09-12 23:01:55,743][rest_client_new.py 38][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2023-09-12 23:01:55,744][rest_client_new.py 39][INFO]: 接口请求的方法>>>POST
+[2023-09-12 23:01:55,744][rest_client_new.py 43][INFO]: 接口请求的json参数>>>
+{
+  "username": 15000000002,
+  "password": 123456
+}
+[2023-09-12 23:01:55,745][rest_client_new.py 47][INFO]: 接口请求的headers参数>>>
+{
+  "Content-Type": "application/json"
+}
+[2023-09-12 23:02:39,808][rest_client_new.py 18][INFO]: 接口返回内容>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNTkyOTYsInVzZXJuYW1lIjoiMTUwMDAwMDAwMDIiLCJleHAiOjE2OTUxMzU3NDQsImVtYWlsIjpudWxsfQ.HxzrZaMI2cxuBhnFjhGtWoEStRGCqVYFQdwtQSNER7o"
+}
+[2023-09-12 23:03:36,634][rest_client_new.py 38][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2023-09-12 23:03:36,635][rest_client_new.py 39][INFO]: 接口请求的方法>>>POST
+[2023-09-12 23:03:36,635][rest_client_new.py 43][INFO]: 接口请求的json参数>>>
+{
+  "username": 15000000002,
+  "password": 123456
+}
+[2023-09-12 23:03:36,635][rest_client_new.py 47][INFO]: 接口请求的headers参数>>>
+{
+  "Content-Type": "application/json"
+}
+[2023-09-12 23:03:36,831][rest_client_new.py 18][INFO]: 接口返回内容>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNTkyOTYsInVzZXJuYW1lIjoiMTUwMDAwMDAwMDIiLCJleHAiOjE2OTUxMzU4MTcsImVtYWlsIjpudWxsfQ.CfuMBsPDwqrFbniEW_F5ZDQk2VCMXhg--7Ose0bjaiQ"
+}

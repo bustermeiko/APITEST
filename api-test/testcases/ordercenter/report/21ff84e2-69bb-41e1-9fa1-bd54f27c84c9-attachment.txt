@@ -1,0 +1,19 @@
+INFO     log:rest_client.py:45 接口请求的地址>>>http://admin.5istudy.online/login/
+INFO     log:rest_client.py:46 接口请求的方法>>>POST
+INFO     log:rest_client.py:50 接口请求的json参数>>>
+{
+  "username": 15000000002,
+  "password": 123456
+}
+INFO     log:response_util.py:14 接口的返回内容>>>：{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNTkyOTYsInVzZXJuYW1lIjoiMTUwMDAwMDAwMDIiLCJleHAiOjE2OTUzOTM2NTUsImVtYWlsIjpudWxsfQ.Wmh193KZ1cA9SIt7anmDKv0z5RJ0l2_50KAkXHgTv_E"}
+INFO     log:rest_client_new.py:38 接口请求的地址>>>http://admin.5istudy.online/orders/${get_extract_data(order_id)}/
+INFO     log:rest_client_new.py:39 接口请求的方法>>>GET
+INFO     log:rest_client_new.py:47 接口请求的headers参数>>>
+{
+  "Content-Type": "application/json",
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNTkyOTYsInVzZXJuYW1lIjoiMTUwMDAwMDAwMDIiLCJleHAiOjE2OTUzOTM2NTUsImVtYWlsIjpudWxsfQ.Wmh193KZ1cA9SIt7anmDKv0z5RJ0l2_50KAkXHgTv_E"
+}
+INFO     log:rest_client_new.py:18 接口返回内容>>>
+{
+  "detail": "未找到。"
+}
