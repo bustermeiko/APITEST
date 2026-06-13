@@ -1,9 +1,0 @@
-[32mINFO    [0m log:mysql_util.py:47 执行sql：delete from users_verifycode where mobile = '15000000000';
-[32mINFO    [0m log:conftest.py:25 sql执行结果：None
-[32mINFO    [0m log:rest_client.py:45 接口请求的地址>>>http://admin.5istudy.online/code/
-[32mINFO    [0m log:rest_client.py:46 接口请求的方法>>>POST
-[32mINFO    [0m log:rest_client.py:50 接口请求的json参数>>>
-{
-  "mobile": 15000000000
-}
-[32mINFO    [0m log:response_util.py:14 接口的返回内容>>>：{"mobile": "15000000000"}

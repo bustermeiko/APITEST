@@ -1,6 +1,0 @@
-INFO     log:rest_client_new.py:38 接口请求的地址>>>http://admin.5istudy.online/banners/
-INFO     log:rest_client_new.py:39 接口请求的方法>>>GET
-INFO     log:rest_client_new.py:47 接口请求的headers参数>>>
-{
-  "Content-Type": "application/json"
-}

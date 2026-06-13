@@ -1,5 +1,0 @@
-[32mINFO    [0m log:mysql_util.py:29 执行sql：select count(1) as banner_num from goods_banner;
-[32mINFO    [0m log:mysql_util.py:33 sql执行结果：{'banner_num': 4}
-[32mINFO    [0m log:rest_client.py:45 接口请求的地址>>>http://admin.5istudy.online/banners/
-[32mINFO    [0m log:rest_client.py:46 接口请求的方法>>>GET
-[32mINFO    [0m log:response_util.py:14 接口的返回内容>>>：[{"id": 1824, "image": "http://admin.5istudy.online/media/banner/banner3_fzsuGSG.jpg", "index": 1, "add_time": "2022-10-27T08:33:00", "goods": 15}, {"id": 1821, "image": "http://admin.5istudy.online/media/banner/%E6%A1%83%E5%AD%90.jpg", "index": 2, "add_time": "2022-08-23T00:34:00", "goods": 82}, {"id": 1820, "image": "http://admin.5istudy.online/media/banner/banner1.jpg", "index": 3, "add_time": "2021-11-26T13:22:00", "goods": 4}, {"id": 1822, "image": "http://admin.5istudy.online/media/banner/%E5%9B%BE%E7%89%872.png", "index": 3, "add_time": "2022-09-22T10:53:00", "goods": 83}]
